@@ -1,36 +1,108 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js 15 Learning Project
 
-## Getting Started
+A comprehensive hands-on learning project for Next.js 15 with React 19, TypeScript, and modern web development practices.
 
-First, run the development server:
+## 🚀 Quick Start
 
 ```bash
+cd nextjs-15-learning
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit [http://localhost:3000](http://localhost:3000) to see the project.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📚 Learning Modules
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### ✅ Completed
+1. **Project Setup** - Next.js 15 with TypeScript, Tailwind CSS, and React Compiler
+2. **Server Components** - Understanding server-side rendering and async components
+3. **Client Components** - Interactive components with hooks and event handlers
 
-## Learn More
+### 🎯 Next Up
+4. **App Router & Routing** - File-based routing, nested layouts, and navigation
+5. **Data Fetching** - Server-side data fetching, caching, and revalidation
+6. **Server Actions** - Form handling and server-side mutations
+7. **Advanced Patterns** - Loading states, error boundaries, and streaming
 
-To learn more about Next.js, take a look at the following resources:
+## 🏗️ Project Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+nextjs-15-learning/
+├── src/app/                 # App Router directory
+│   ├── components/          # Reusable components
+│   │   └── Counter.js       # Interactive Client Component
+│   ├── layout.js           # Root layout (Server Component)
+│   ├── page.js             # Home page (Server Component)
+│   └── globals.css         # Global styles
+├── specs/                  # Learning documentation
+│   ├── 01-project-setup.md
+│   ├── 02-server-components.md
+│   └── 03-client-components.md
+└── .kiro/steering/         # Learning guides
+    └── nextjs-15-learning-guide.md
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Tech Stack
 
-## Deploy on Vercel
+- **Next.js 15.5.11** (latest stable Next.js 15)
+- **React 18.3.1** (stable React 18)
+- **JavaScript** (no TypeScript for simplicity)
+- **Tailwind CSS v4** for styling
+- **React Compiler** for automatic optimizations
+- **ESLint** for code quality
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📖 Key Concepts Learned
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Server Components (Default)
+- Run on the server during build or request time
+- Can be async and fetch data directly
+- Zero impact on client bundle size
+- Perfect for static content and data fetching
+
+### Client Components ('use client')
+- Run in the browser with full React features
+- Use hooks, event handlers, and browser APIs
+- Required for interactivity
+- Should be kept small and focused
+
+### Component Composition
+- Server Components can contain Client Components
+- Client Components cannot directly import Server Components
+- Use children pattern to pass Server Components to Client Components
+
+## 🎮 Interactive Demo
+
+The home page demonstrates:
+- **Server Component**: Shows server-rendered timestamp
+- **Client Component**: Interactive counter with state management
+- **Composition**: How Server and Client Components work together
+
+## 📝 Learning Documentation
+
+Each learning module is documented in the `specs/` directory with:
+- Concept explanations
+- Code examples
+- Best practices
+- Next steps
+
+## 🚀 Development Commands
+
+```bash
+npm run dev    # Start development server
+npm run build  # Build for production
+npm run start  # Start production server
+npm run lint   # Run ESLint
+```
+
+## 🎯 Learning Goals
+
+This project teaches Next.js 15 through practical implementation:
+1. Understanding the App Router architecture
+2. Mastering Server vs Client Components
+3. Learning modern React patterns with React 19
+4. Building performant, SEO-friendly applications
+5. Implementing best practices for production apps
+
+---
+
+**Ready to continue learning?** Check out the `specs/` directory for detailed learning modules and run `npm run dev` to see the interactive examples!
