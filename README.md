@@ -14,15 +14,18 @@ Visit [http://localhost:3000](http://localhost:3000) to see the project.
 ## 📚 Learning Modules
 
 ### ✅ Completed
-1. **Project Setup** - Next.js 15 with TypeScript, Tailwind CSS, and React Compiler
+1. **Project Setup** - Next.js 15 with JavaScript, Tailwind CSS, and React Compiler
 2. **Server Components** - Understanding server-side rendering and async components
 3. **Client Components** - Interactive components with hooks and event handlers
+4. **App Router Routing** - Static routes, dynamic routes, and nested layouts
+5. **Navigation Patterns** - Link components, useRouter hook, and programmatic navigation
+6. **Advanced Routing** - Catch-all, optional catch-all, route groups, and private routes
 
 ### 🎯 Next Up
-4. **App Router & Routing** - File-based routing, nested layouts, and navigation
-5. **Data Fetching** - Server-side data fetching, caching, and revalidation
-6. **Server Actions** - Form handling and server-side mutations
-7. **Advanced Patterns** - Loading states, error boundaries, and streaming
+7. **Data Fetching** - Server-side data fetching, caching, and revalidation
+8. **Server Actions** - Form handling and server-side mutations
+9. **Loading & Error States** - Loading.js and error.js files
+10. **Performance Optimization** - React Compiler and caching strategies
 
 ## 🏗️ Project Structure
 

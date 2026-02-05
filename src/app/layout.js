@@ -1,4 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
+import Navigation from "./_components/Navigation";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -13,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Next.js 15 Learning",
-  description: "Learning Next.js 15 with JavaScript",
+  description: "Learning Next.js 15 with JavaScript - App Router and Routing",
 };
 
 export default function RootLayout({ children }) {
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Navigation />
         {children}
       </body>
     </html>

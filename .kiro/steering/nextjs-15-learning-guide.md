@@ -37,10 +37,19 @@ nextjs-15-learning/
 - [x] Component composition patterns
 - [x] Next.js 15 features overview
 - [x] JavaScript-only approach (no TypeScript)
-- [ ] Async Request APIs
-- [ ] New caching behavior
-- [ ] Form Component
+- [x] App Router routing and navigation
+- [x] Static routes (/about, /contact, /pricing)
+- [x] Dynamic routes (/blog/[slug])
+- [x] Nested layouts (/dashboard/*)
+- [x] Programmatic navigation (useRouter, Link)
+- [x] Advanced routing patterns
+- [x] Catch-all routes (/docs/[...slug])
+- [x] Optional catch-all routes (/shop/[[...slug]])
+- [x] Route groups ((marketing))
+- [x] Private routes (_components, _utils)
+- [ ] Data fetching patterns
 - [ ] Server Actions
+- [ ] Loading and error states
 - [ ] Performance optimization with React Compiler
 
 ## Development Commands

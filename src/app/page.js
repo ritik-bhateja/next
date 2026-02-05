@@ -1,5 +1,6 @@
 import Image from "next/image";
-import Counter from "./components/Counter";
+import Counter from "./_components/Counter";
+import NavigationDemo from "./_components/NavigationDemo";
 
 // This is a Server Component (default in App Router)
 // It runs on the server and can access server-side resources
@@ -62,9 +63,9 @@ export default async function Home() {
         {/* Interactive Component Demo */}
         <div className="mb-12">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 text-center">
-            Server vs Client Components Demo
+            Interactive Components Demo
           </h2>
-          <div className="grid md:grid-cols-2 gap-6">
+          <div className="grid md:grid-cols-2 gap-6 mb-6">
             <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
                 🖥️ Server Component Info
@@ -83,6 +84,9 @@ export default async function Home() {
             {/* Client Component embedded in Server Component */}
             <Counter />
           </div>
+          
+          {/* Navigation Demo */}
+          <NavigationDemo />
         </div>
 
         {/* Action Buttons */}
