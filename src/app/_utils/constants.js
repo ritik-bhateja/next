@@ -13,10 +13,11 @@ export const NAVIGATION_ITEMS = [
   { href: '/blog', label: 'Blog' },
   { href: '/docs', label: 'Docs' },
   { href: '/shop', label: 'Shop' },
+  { href: '/gallery', label: 'Gallery' },
   { href: '/dashboard', label: 'Dashboard' },
   { href: '/contact', label: 'Contact' },
   { href: '/pricing', label: 'Pricing' },
-  { href: '/routing-demo', label: 'Routing Demo' }
+  { href: '/advanced-routing', label: 'Advanced Routing' }
 ];
 
 export const ROUTE_PATTERNS = {

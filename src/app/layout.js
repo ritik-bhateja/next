@@ -17,7 +17,7 @@ export const metadata = {
   description: "Learning Next.js 15 with JavaScript - App Router and Routing",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children, modal }) {
   return (
     <html lang="en">
       <body
@@ -25,6 +25,7 @@ export default function RootLayout({ children }) {
       >
         <Navigation />
         {children}
+        {modal}
       </body>
     </html>
   );

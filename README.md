@@ -20,12 +20,14 @@ Visit [http://localhost:3000](http://localhost:3000) to see the project.
 4. **App Router Routing** - Static routes, dynamic routes, and nested layouts
 5. **Navigation Patterns** - Link components, useRouter hook, and programmatic navigation
 6. **Advanced Routing** - Catch-all, optional catch-all, route groups, and private routes
+7. **Parallel Routes** - Dashboard with independent loading analytics, notifications, and team panels
+8. **Intercepting Routes** - Photo gallery with modal experience and URL updates
 
 ### 🎯 Next Up
-7. **Data Fetching** - Server-side data fetching, caching, and revalidation
-8. **Server Actions** - Form handling and server-side mutations
-9. **Loading & Error States** - Loading.js and error.js files
-10. **Performance Optimization** - React Compiler and caching strategies
+9. **Data Fetching** - Server-side data fetching, caching, and revalidation
+10. **Server Actions** - Form handling and server-side mutations
+11. **Loading & Error States** - Advanced loading.js and error.js patterns
+12. **Performance Optimization** - React Compiler and caching strategies
 
 ## 🏗️ Project Structure
 

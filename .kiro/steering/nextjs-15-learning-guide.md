@@ -47,9 +47,12 @@ nextjs-15-learning/
 - [x] Optional catch-all routes (/shop/[[...slug]])
 - [x] Route groups ((marketing))
 - [x] Private routes (_components, _utils)
+- [x] Parallel routes (@analytics, @notifications, @team)
+- [x] Intercepting routes (@modal/(.)gallery/[id])
+- [x] Modal experiences with URL updates
 - [ ] Data fetching patterns
 - [ ] Server Actions
-- [ ] Loading and error states
+- [ ] Loading and error states (advanced)
 - [ ] Performance optimization with React Compiler
 
 ## Development Commands
